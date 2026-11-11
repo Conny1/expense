@@ -13,21 +13,21 @@ export default defineConfig({
         "./ExpenseHome": "./src/components/ExpenseHome",
       },
       shared: {
-        react: { singleton: true, eager: false, requiredVersion: "^19.0.1" },
+          react: { singleton: true, eager: false, requiredVersion: "^19.1.1" },
         "react-dom": {
           singleton: true,
           eager: false,
-          requiredVersion: "^19.0.1",
+          requiredVersion: "^19.1.1",
         },
         "react-redux": {
           singleton: true,
           eager: false,
-          requiredVersion: "^9.3.0",
+          requiredVersion: "^9.2.0",
         },
         "@reduxjs/toolkit": {
           singleton: true,
           eager: false,
-          requiredVersion: "^2.13.0",
+          requiredVersion: "^2.9.0",
         },
       } as any,
     }),
