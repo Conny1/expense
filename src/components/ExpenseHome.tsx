@@ -27,7 +27,7 @@ const Home = ({ baseurl, tokens }: Props) => {
   if (!loaded) return <div><p>Loading...</p></div>;
 
   return (
-    <div className="w-full">
+    <div className="w-full mf-expense-app">
       <Toaster position="top-right" richColors />
       <BrowserRouter basename={baseurl}>
         <AppLayout>
